@@ -1,36 +1,9 @@
 # Ahmad Ansar Portfolio
 
-Static portfolio for Ahmad Ansar, a cybersecurity student at Wentworth Institute of Technology.
+This is the source code for my personal portfolio.
 
-## Stack
+[View the live site](https://ahmad-ansar.github.io)
 
-- Plain HTML, CSS, and JavaScript
-- No frontend framework
-- No analytics or tracking scripts
-- No backend password endpoint
-- Cloudflare Pages security headers
+I am studying cybersecurity at Wentworth Institute of Technology and expect to graduate in 2029. The site includes a few projects I can explain clearly, my experience so far, and the technical foundation I am building in Linux, networking, and security.
 
-## Local preview
-
-From the repository root:
-
-```bash
-python -m http.server 8080
-```
-
-Open `http://localhost:8080`.
-
-## Security and privacy choices
-
-- The password strength demo runs only in the browser.
-- The demo does not make network requests or log entered values.
-- DOM updates use `textContent` instead of injecting user input as HTML.
-- The generated sample uses the Web Crypto API with rejection sampling.
-- A strict Content Security Policy blocks third-party scripts, network connections, frames, and form submissions.
-- The public site omits a phone number, exact age, street address, and unrelated personal details.
-
-The password estimator is educational. Its resistance estimate assumes a simplified offline attack model of 100 billion guesses per second and should not be treated as a guarantee.
-
-## Deployment
-
-Use the repository root as the Cloudflare Pages output directory. No build command is required.
+Built with HTML, CSS, and JavaScript.
