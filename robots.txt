@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ahmadansar.me/sitemap.xml
+Sitemap: https://ahmad-ansar.github.io/sitemap.xml
